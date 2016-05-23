@@ -13,15 +13,13 @@
 
 ####version 2.1
 #####使用node.js重写后端，新增node.js版本
- * 使用node.js中的主流框架express，所有业务全部实现异步处理。
+ * 使用express框架。
  * 使用ejs模板引擎进行渲染。
- * 经初步测试，在现有学生版ubuntu云服务器的环境下，可承受的并发量与页面处理速度均优于php（其中对相同并发量的处理效果约为php的5倍），而数据传输速率低于php。
  
  
 ####version 3.0
 #####该版本主要对移动端进行了重构
  * 使用ionic框架重构移动端前端，去掉了ejs模板引擎，全部改用angular+ajax。
- * 添加了内联iframe显示跳转的课程页面（极客学院由于设置了S-Iframe-Options:SAMEORIGIN,无法在iframe中显示，其他均正常）
  
 ####version 3.1
 #####主要对搜索功能做了优化
